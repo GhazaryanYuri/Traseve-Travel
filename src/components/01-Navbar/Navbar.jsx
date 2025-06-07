@@ -6,15 +6,15 @@ import Button from "../03-Button/Button";
 
 const Navbar = () => {
   // Dynamic content variables
-  const [navbar_links, setNavbarLinks] = useState(null);
+  const [navbar_links, setNavbarLinks] = useState([]);
   const [active_link, setActiveLink] = useState("#home");
   const [mobile_navbar_status, setMobileNavbarStatus] = useState(false);
 
   useEffect(() => {
     async function Navbar_Data() {
       try {
-        const resp = await fetch("/data/navbar.json");
-        const data = await resp.json();
+        const response = await fetch("data/navbar.json");
+        const data = await response.json();
 
         setNavbarLinks(data.links);
       } catch (error) {
