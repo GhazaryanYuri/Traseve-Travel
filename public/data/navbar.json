@@ -1,0 +1,9 @@
+{
+  "links": [
+    { "content": "Home", "url": "#home" },
+    { "content": "Save", "url": "#save" },
+    { "content": "Travel", "url": "#travel" },
+    { "content": "Experience", "url": "#experience" },
+    { "content": "Wallet", "url": "#wallet" }
+  ]
+}

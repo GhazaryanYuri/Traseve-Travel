@@ -1,0 +1,22 @@
+.bonus_card {
+  width: 271px;
+  height: 353px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
